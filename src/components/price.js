@@ -11,7 +11,7 @@ function Price(props) {
                 provinceCode: obj.provinceCode,
                 districtCode: obj.districtCode,
                 priceType: priceRef.value,
-                areaType: obj.area,
+                areaType: obj.areaType,
             });
         }}>
             <option value="-1">Chọn mức giá</option>

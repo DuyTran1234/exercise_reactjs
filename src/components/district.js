@@ -22,8 +22,8 @@ function District(props) {
             setCurrentValue({
                 provinceCode: obj.provinceCode,
                 districtCode: districtRef.value,
-                priceType: obj.price,
-                areaType: obj.area,
+                priceType: obj.priceType,
+                areaType: obj.areaType,
             });
         }}>
             <option value="-1">-- Quận/huyện --</option>
